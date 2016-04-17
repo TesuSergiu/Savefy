@@ -1,0 +1,320 @@
+header {
+text-align: center;
+background-color: #66ccff;
+background-image: url(img/money-background.jpg);
+height: 800px;
+}
+
+header .name {
+color: white;
+font-size: 5.5em;
+}
+
+header .motto {
+color: white;
+font-size: 2.5em;
+}
+
+section .name-white {
+color: white;
+font-size: 3em;
+}
+
+section .name-black {
+color: black;
+font-size: 3em;
+}
+
+header .container {
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+header img {
+display: block;
+margin: 0 auto 20px;
+}
+
+section {
+padding: 70px 0;
+}
+
+.about-section {
+color: white;
+background-color: #66ccff;
+background-image: url(img/money-car.jpg);
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+color: #18bc9c;
+background: white;
+border: solid 2px white;
+}
+
+.modal-body p {
+color: black;
+}
+
+.img-centered {
+margin: 0 auto;
+}
+
+#portfolio * {
+z-index: 2;
+}
+
+#portfolio .portfolio-item {
+margin: 0 0 15px;
+right: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+display: block;
+position: relative;
+max-width: 400px;
+margin: 0 auto;
+}
+
+#portfolio a, a:hover, a:focus, a:active, a.active {
+color: #18bc9c;
+outline: none;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+background: rgba(24, 188, 156, 0.9);
+position: absolute;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: all ease 0.5s;
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+position: absolute;
+width: 100%;
+height: 20px;
+font-size: 20px;
+text-align: center;
+top: 50%;
+margin-top: -12px;
+color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+margin-top: -12px;
+}
+
+.portfolio-modal .modal-content {
+border-radius: 0;
+background-clip: border-box;
+-webkit-box-shadow: none;
+box-shadow: none;
+border: none;
+min-height: 100%;
+padding: 100px 0;
+text-align: center;
+}
+
+.portfolio-modal .close-modal {
+position: absolute;
+width: 75px;
+height: 75px;
+background-color: transparent;
+top: 25px;
+right: 25px;
+cursor: pointer;
+}
+
+.portfolio-modal .close-modal .lr {
+height: 75px;
+width: 1px;
+margin-left: 35px;
+background-color: #2c3e50;
+transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+z-index: 1051;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+height: 75px;
+width: 1px;
+background-color: #2c3e50;
+transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+z-index: 1052;
+}
+
+.portfolio-modal .modal-content h2 {
+margin: 0;
+font-size: 3em;
+}
+
+.portfolio-modal .modal-content .item-details {
+margin: 30px 0;
+}
+
+.methods {
+text-align: center;
+margin: 0 auto;
+}
+
+.img-responsive { 
+margin: 0 auto;
+}
+.floating-label-form-group {
+position: relative;
+margin-bottom: 0;
+padding-bottom: 0.5em;
+border-bottom: 1px solid #eeeeee;
+}
+
+.floating-label-form-group label {
+display: block;
+z-index: 0;
+position: relative;
+top: 2em;
+margin: 0;
+font-size: 0.85em;
+line-height: 1.764705882em;
+vertical-align: middle;
+vertical-align: baseline;
+opacity: 0;
+-webkit-transition: top 0.3s ease,opacity 0.3s ease;
+-moz-transition: top 0.3s ease,opacity 0.3s ease;
+-ms-transition: top 0.3s ease,opacity 0.3s ease;
+transition: top 0.3s ease,opacity 0.3s ease;
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+z-index: 1;
+position: relative;
+padding-right: 0;
+padding-left: 0;
+border: none;
+border-radius: 0;
+font-size: 1.5em;
+background: none;
+box-shadow: none !important;
+resize: none;
+}
+
+footer .footer-above {
+padding-top: 50px;
+background-color: #2c3e50;
+}
+
+footer .footer-below {
+padding: 27px 0;
+background-color: #233140;
+}
+
+footer .footer-space {
+margin-bottom: 50px;
+}
+
+footer h3 {
+margin-bottom: 30px;
+}
+
+footer .footer-above h3, p {
+color: #fff;
+}
+
+.btn-social {
+display: inline-block;
+height: 50px;
+width: 50px;
+border: 2px solid white;
+border-radius: 100%;
+text-align: center;
+font-size: 20px;
+line-height: 45px;
+}
+
+.btn-outline {
+color: white;
+font-size: 20px;
+border: solid 2px white;
+background: transparent;
+transition: all 0.3s ease-in-out;
+margin-top: 15px;
+}
+
+.btn-social a, a:hover, a:focus, a:active, a.active {
+color: #66ccff;
+outline: none;
+}
+
+.scroll-top .btn {
+font-size: 11px;
+width: 36px;
+height: 36px;
+border-radius: 100%;
+line-height: 20px;
+}
+
+.scroll-top .btn:hover {
+color: #18bc9c;
+}
+
+hr.break-form {
+color: white;
+border-color: white;
+}
+
+hr.break-form-primary {
+color: black;
+border-color: black;
+}
+
+hr.break-form, .break-form-primary {
+padding: 0;
+border: none;
+border-top: solid 3px;
+text-align: center;
+max-width: 250px;
+margin: 25px auto 30px;
+}
+
+hr.break-form:after {
+background-color: #85bb65;
+border-radius: 100%;
+padding-left: 12px;
+padding-right: 12px;
+color: white;
+}
+
+hr.break-form-primary:after {
+background-color: #85bb65;
+border-radius: 100%;
+padding-left: 12px;
+padding-right: 12px;
+color: white;
+}
+
+hr.break-form:after, hr.break-form-primary:after {
+content: "\f155";
+font-family: FontAwesome;
+display: inline-block;
+position: relative;
+top: -0.8em;
+font-size: 2em;
+padding: 0 0.25em;
+}
+
+@media (min-width: 768px) {
+header .container {
+padding-top: 250px;
+padding-bottom: 192px;
+}
+}
+
+@media (min-width: 767px) {
+#portfolio .portfolio-item {
+margin: 0 0 30px;
+}
+}
